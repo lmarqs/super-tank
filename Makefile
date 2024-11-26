@@ -25,7 +25,7 @@ upload:
 
 monitor:
 	sudo chmod a+rw $(PORT)
-	arduino-cli monitor --config baudrate=9600 --fqbn $(FQBN) --port $(PORT) --config-file arduino-cli.yaml
+	arduino-cli monitor --config baudrate=115200 --fqbn $(FQBN) --port $(PORT) --config-file arduino-cli.yaml
 
 monitor-describe:
 	sudo chmod a+rw $(PORT)
