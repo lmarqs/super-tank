@@ -1,4 +1,4 @@
-FBQN=esp32-bluepad32:esp32:esp32
+FQBN=esp32-bluepad32:esp32:esp32
 SKETCH=main
 PORT=/dev/ttyUSB0
 
